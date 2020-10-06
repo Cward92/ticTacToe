@@ -1,8 +1,8 @@
- VIEW
- declare function to generate html elements
- function generateElements(type, id, classList, parent, eventListener){...}
+//VIEW
+// declare function to generate html elements
+// function generateElements(type, id, classList, parent, eventListener){...}
 
- generate 
+// generate 
     display:
         header
         <div class="row">
