@@ -141,7 +141,7 @@ function checkWin() {
 
 function checkWinner(){
     if (winner == true) {
-        alert('A winner is YOU');
+        alert(`${p1name} WINS!`);
         console.log(currentPlayer);
         if(currentPlayer == 1) {
             p1score++;
