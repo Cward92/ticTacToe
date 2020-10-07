@@ -71,7 +71,7 @@ function chooseName() {
     //     score1.innerHTML = `${p1name}: ${p1score}`;
     // } else {
     }
-    score1.innerHTML = `${p1name}: ${p1score}`;
+    score1.innerHTML = `<span style='color: red;'> ${p1name}: ${p1score}`;
     p2name = prompt("Enter Name of Player 2", "");
     if(p2name == null || p2name == '') {
         p2name = 'Player 2';
@@ -164,7 +164,12 @@ function updateTurn() {
     };
     if(currentPlayer == 1) {
         currentPlayer = 2;
+        score2.innerHTML = `<span style='color: red;'>${p2name}: ${p2score}</span>`;
+        score1.innerHTML = `${p1name}: ${p1score}`
     } else if(currentPlayer == 2){
         currentPlayer = 1;
+        score1.innerHTML = `<span style='color: red;'>${p1name}: ${p1score}</span>`;
+        score2.innerHTML = `${p2name}: ${p2score}`
+
     };
 };
