@@ -1,0 +1,13 @@
+#board {
+    height: 390px;
+    width: 390px;
+    font-size: 5em;
+    color: black;
+    text-align: center;
+}
+
+#main {
+    height: 700px;
+    width: 420px;
+    text-align: center;
+}

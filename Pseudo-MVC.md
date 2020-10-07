@@ -1,4 +1,4 @@
-//VIEW
+// VIEW
 // declare function to generate html elements
 // function generateElements(type, id, classList, parent, eventListener){...}
 
@@ -51,7 +51,7 @@ checkWinner() {
 
 MODEL
 //current Game State
-    turn = x
+    turn = 'x'
     current_player = "Player 1";
     player1Score = 0
     player2Score = 0
